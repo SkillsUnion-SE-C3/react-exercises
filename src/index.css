@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.exercise {
+  padding: 30px 20px;
+}
+
+.first {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.second {
+  background-color: darkslategray;
+  color: white;
+}
+
+.third {
+  background-color: teal;
+  color: white;
+}
+
+.fourth {
+  background-color: goldenrod;
+  color: white;
+}
+
+
+.fifth {
+  background-color: darksalmon;
+  color: white;
+}
+
+.sixth {
+  background-color: maroon;
+  color: white;
+}
+
+
+li {
+  padding: 7px 0;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  font-weight: 500;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.Character {
+  padding: 20px;
+  border: 1px solid white;
+  margin: 5px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.Character > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
