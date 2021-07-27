@@ -6,7 +6,7 @@ const Character = (props) => {
 
       <img src={props.character.image} alt=""/>
       
-      <p>{props.hasBeenToMordor ? "Has been to Mordor" : "Has not been to Mordor"}</p>
+      <p>{props.character.hasBeenToMordor ? "Has been to Mordor" : "Has not been to Mordor"}</p>
     </div>
   )
 }

@@ -21,17 +21,18 @@ const UseProps = () => {
   ]
   return(
     <div className="exercise fourth">
+      <h2>Use props</h2>
       <h3>Instructions: </h3>
       <ul>
         <li>Below are rendered 4 Character components</li>
-        <li>Each of these is receiving props for name and image which are defined in characters array</li>
-        <li>Make changes to Character component to make use of the props passed</li>
+        <li>Each of these are receiving props for name and image but are not making use of them </li>
+        <li>Make changes to Character component so that we can see the name and image rendered on the page</li>
         <li>Only make changes in Character.js</li>
       </ul>
 
       <a href="https://reactjs.org/docs/components-and-props.html">Documentation and examples</a>
 
-      <div class="characters">
+      <div className="flex">
         <Character image={characters[0].image} name={characters[0].name}/>
         <Character image={characters[1].image} name={characters[1].name}/>
         <Character image={characters[2].image} name={characters[2].name}/>

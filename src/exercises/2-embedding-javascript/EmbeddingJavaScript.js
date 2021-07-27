@@ -8,6 +8,7 @@ const EmbeddingJavascript = () => {
   
   return(
     <div className="exercise second">
+      <h2>Ember JavaScript in JSX</h2>
       <h3>Instructions: </h3>
       <ul>
         <li>Using the user object please render user's full name below</li>

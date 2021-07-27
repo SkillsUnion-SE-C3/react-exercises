@@ -4,6 +4,7 @@ const PassAProp = () => {
   
   return(
     <div className="exercise third">
+      <h2>Pass props</h2>
       <h3>Instructions: </h3>
       <ul>
         <li>Below are rendered 3 MyButton components</li>

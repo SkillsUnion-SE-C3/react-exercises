@@ -1,6 +1,7 @@
 const RenderComponent = () => {
   return(
     <div className="exercise first">
+      <h2>Render Component</h2>
       <h3>Instructions: </h3>
       <ol>
         <li>Create a component called MyComponent in this directory</li>
