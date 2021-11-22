@@ -12,9 +12,9 @@ const Shop = () => {
     <div className="flex">
       <div>
         <h2>All products</h2>
-        {products.map((product) => {
+        {products.map((product, i) => {
           return (
-            <div>
+            <div key={"product" + i}>
               <h3>Name: {product.title}</h3>
               <h3>Price: {product.price}</h3>
               <button>Add to basket</button>
@@ -24,9 +24,9 @@ const Shop = () => {
       </div>
       <div>
         <h2>Basket</h2>
-        {productsInBasket().map((product) => {
+        {productsInBasket().map((product, i) => {
           return (
-            <div>
+            <div key={"basket" + i}>
               <h3>{product.title}</h3>
               <button>Remove</button>
             </div>
