@@ -1,14 +1,14 @@
 const EmbeddingJavascript = () => {
-  
+
   const user = {
     firstName: "linda",
     surname: "spruce",
     image: 'https://picsum.photos/200/300'
   }
-  
-  return(
+
+  return (
     <div className="exercise second">
-      <h2>Ember JavaScript in JSX</h2>
+      <h2>Embed JavaScript in JSX</h2>
       <h3>Instructions: </h3>
       <ul>
         <li>Using the user object please render user's full name below</li>

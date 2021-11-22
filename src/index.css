@@ -58,6 +58,18 @@ code {
   background-color: brown;
 }
 
+.eleventh {
+  background-color: burlywood;
+}
+
+.twelwth {
+  background-color: rgb(165, 151, 133);
+}
+
+.thirteenth {
+  background-color: rgb(115, 124, 89);
+}
+
 input {
   height: 50px;
   width: 200px;
