@@ -1,3 +1,7 @@
+import react from 'react';
+import MyComponent from './MyComponent';
+
+
 const RenderComponent = () => {
   return (
     <div className="exercise first">
@@ -17,7 +21,7 @@ const RenderComponent = () => {
       </ol>
       <a href="https://reactjs.org/docs/components-and-props.html">Documentation and examples</a>
 
-      <p>Please render MyComponent instead of this paragraph tag</p>
+      <MyComponent />
     </div>
   )
 }

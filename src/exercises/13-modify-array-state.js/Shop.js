@@ -8,6 +8,9 @@ const Shop = () => {
     return products.filter((product) => product.basket)
   }
 
+  function addBasket(event){
+    alert("Add to basket")
+  }
   return (
     <div className="flex">
       <div>
@@ -17,7 +20,7 @@ const Shop = () => {
             <div key={"product" + i}>
               <h3>Name: {product.title}</h3>
               <h3>Price: {product.price}</h3>
-              <button>Add to basket</button>
+              <button onClick={addBasket}>Add to basket</button>
             </div>
           )
         })}

@@ -1,4 +1,5 @@
 const Character = (props) => {
+
   return(
     <div className="Character">
 
@@ -9,8 +10,8 @@ const Character = (props) => {
       {/* Please render only one of these values based on 
       hasBeenToMordor value coming from character prop */}
       
-      <p>Has been to Mordor</p>
-      <p>Has not been to Mordor</p>
+      <p>{props.character.hasBeenToMordor ? "Has been to Mordor" : "Has not been to Mordor"}</p>
+      
     </div>
   )
 }
