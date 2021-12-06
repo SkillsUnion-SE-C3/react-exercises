@@ -1,3 +1,7 @@
+const capitalize = (string) => {
+  return string[0].toUpperCase() + string.slice(1)
+}
+
 const EmbeddingJavascript = () => {
 
   const user = {
@@ -21,7 +25,9 @@ const EmbeddingJavascript = () => {
 
 
       <h2>Please render user full name below </h2>
+      <h3>{capitalize(user.firstName)} {capitalize(user.surname)}</h3>
       <h2>Please render user image below </h2>
+      <img alt="" src={user.image} />
 
     </div>
   )

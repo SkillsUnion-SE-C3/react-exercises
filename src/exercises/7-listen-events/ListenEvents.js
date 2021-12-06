@@ -1,6 +1,6 @@
 const ListenEvents = () => {
-  
-  return(
+
+  return (
     <div className="exercise seventh">
       <h2>Listen user events</h2>
       <h3>Instructions: </h3>
@@ -14,8 +14,8 @@ const ListenEvents = () => {
       <a href="https://reactjs.org/docs/handling-events.html">Documentation and examples</a>
 
       <div className="flex">
-        <button>Click me</button>
-        <input placeholder="Change me"/>
+        <button onClick={(() => console.log("I've been clicked"))}>Click me</button>
+        <input onChange={((event) => console.log(event.target.value))} placeholder="Change me" />
       </div>
     </div>
   )

@@ -1,8 +1,8 @@
 import MyButton from "./MyButton"
 
 const PassAProp = () => {
-  
-  return(
+
+  return (
     <div className="exercise third">
       <h2>Pass props</h2>
       <h3>Instructions: </h3>
@@ -16,9 +16,9 @@ const PassAProp = () => {
 
       <a href="https://reactjs.org/docs/components-and-props.html">Documentation and examples</a>
       <p> Add props to these components</p>
-      <MyButton/>
-      <MyButton/>
-      <MyButton/>
+      <MyButton backgroundColor="red" text="Save" />
+      <MyButton backgroundColor="yellow" text="Next" />
+      <MyButton backgroundColor="green" text="Cancel" />
 
     </div>
   )

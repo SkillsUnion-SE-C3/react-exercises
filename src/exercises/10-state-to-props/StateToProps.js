@@ -6,8 +6,8 @@ const StateToProps = () => {
 
   const [searchQuery, setSearchQuery] = useState("dog");
   const [content, setContent] = useState("The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?");
-  
-  return(
+
+  return (
     <div className="exercise tenth">
       <h2>State to props and lifting state</h2>
       <h3>Instructions: </h3>
@@ -18,17 +18,19 @@ const StateToProps = () => {
         <li>You don't have to make any changes in SearchResult component</li>
       </ul>
 
-      <a href="https://reactjs.org/docs/lifting-state-up.html">Lifting state up</a><br/>
+      <a href="https://reactjs.org/docs/lifting-state-up.html">Lifting state up</a><br />
 
-      <TextInput 
-        content={content} 
+      <TextInput
+        content={content}
         searchQuery={searchQuery}
+        setContent={setContent}
+        setSearchQuery={setSearchQuery}
       />
-      <SearchResult 
-        searchQuery={searchQuery} 
+      <SearchResult
+        searchQuery={searchQuery}
         content={content}
       />
-     
+
     </div>
   )
 }
